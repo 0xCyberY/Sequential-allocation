@@ -1,0 +1,12 @@
+a)	Sequential allocation
+Step 1. Start the program.
+Step 2. Initialize memory block status to ‘0’ to indicate that it is empty 
+Step 3. Initialize counter to ‘0’
+Step 4. Read starting block of file and length of the file.
+Step 5.  Increment counter if all blocks to be allocated sequentially to file are empty.
+Step 6. If counter value is equal to length of the file then go to step 7 else display the message “file is not allocated to disk” and then go to step 8.
+Step 7. Start allocating the file content to respective memory block and set the memory block status to ‘1’ indicating that block now contains certain file content. Simultaneously display block number and block status.
+Step 8. Ask user to select among 1. Continue allocating more files 2. Exit options
+Step 9. If option 1 is chosen, go to step 3.
+Step 10.  If option 2 is chosen, exit the program.
+
