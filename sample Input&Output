@@ -1,0 +1,17 @@
+Files Allocated are :
+Enter starting block and length of file:
+0 3
+0       1
+1       1
+2       1
+The file is allocated to disk
+Do you want to enter more file(Yes - 1/No - 0) 1
+Enter starting block and length of file:
+2 2
+The file is not allocated
+Do you want to enter more file(Yes - 1/No - 0) 1
+Enter starting block and length of file: 3 2
+3       1
+4       1
+The file is allocated to disk
+Do you want to enter more file(Yes - 1/No - 0) 0
